@@ -1,0 +1,12 @@
+[commit]
+  gpgsign = true ; Define gpg.exe to enable GitHub Desktop support
+
+[log]
+  showSignature = true
+
+[push]
+  gpgsign = if-asked
+
+[tag]
+  forceSignAnnotated = true ; Doesn't seem to do much...
+  gpgsign = true

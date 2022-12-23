@@ -1,0 +1,8 @@
+[include]
+  path = .gitconfig.d/auto
+  path = .gitconfig.d/formatting
+  path = .gitconfig.d/signing
+  path = .gitconfig.local
+
+[user]
+  name = Alan Ip
