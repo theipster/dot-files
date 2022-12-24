@@ -1,3 +1,3 @@
 #!/bin/sh
 
-cp --interactive --recursive --update --verbose .gitconfig* ~
+cp --interactive --recursive --update --verbose .gitconfig* .vimrc ~
