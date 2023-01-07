@@ -1,8 +1,10 @@
 " Indentation
+filetype indent on
 set expandtab
 set shiftwidth=2
 set tabstop=2
-filetype indent off
+autocmd FileType go set noexpandtab
+autocmd FileType python set shiftwidth=2 expandtab
 
 " Navigation
 set nu
